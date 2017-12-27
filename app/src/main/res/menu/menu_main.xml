@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.NavigationDrawerActivity">
+
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@mipmap/ic_view_list_white_24dp"
+        android:title="action_notification"
+        app:showAsAction="always">
+        <menu>
+    <item android:id="@+id/build"
+        android:icon="@mipmap/ic_build_black_24dp"
+        android:title="Build"
+        android:orderInCategory="100"
+         />
+    <item android:id="@+id/face"
+        android:icon="@mipmap/ic_face_black_24dp"
+        android:title="Face"
+        app:showAsAction="withText"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/fingerprint"
+        android:icon="@mipmap/ic_fingerprint_black_24dp"
+        android:title="FingerPrint"
+        android:orderInCategory="100"
+        />
+
+    <item android:id="@+id/share"
+        android:icon="@mipmap/ic_compare_arrows_black_24dp"
+        android:title="Share"
+        android:orderInCategory="100" />
+        </menu>
+    </item>
+
+</menu>

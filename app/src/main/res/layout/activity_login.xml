@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.guestlion.myloginapp.LoginActivity"
+    android:background="#f7e8a9">
+
+
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="51dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="35dp"
+        android:background="#0084cd"
+        android:onClick="onLogin"
+        android:textColor="#ffffff"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/regbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loginBtn"
+        android:layout_alignBottom="@+id/loginBtn"
+        android:layout_alignEnd="@+id/password"
+        android:layout_marginEnd="33dp"
+        android:background="#0084cd"
+        android:onClick="onRegister"
+        android:textColor="#ffffff"
+        android:text="Register" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googlebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_margin="40dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92690128244",
+    "firebase_url": "https://myloginproject-1d54d.firebaseio.com",
+    "project_id": "myloginproject-1d54d",
+    "storage_bucket": "myloginproject-1d54d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92690128244:android:57c8393eb24d4fb9",
+        "android_client_info": {
+          "package_name": "com.blogspot.guestlion.myloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92690128244-acv6aqom8q8buslc7gfe3us1gm5gn258.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.guestlion.myloginapp",
+            "certificate_hash": "7c4041f7b1f612fc790dbeed1d7346f931dcd02d"
+          }
+        },
+        {
+          "client_id": "92690128244-jdj1edrrrok9ofb1fkoa1anc6ceujvdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNQ_WLSALHf6ZAIurBapLr-bLSNo_ab1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92690128244-jdj1edrrrok9ofb1fkoa1anc6ceujvdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
